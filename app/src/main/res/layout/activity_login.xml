@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANDROID APP"
+        android:background="#F8D805"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TableRow
+        android:layout_marginTop="20dp">
+        <EditText
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="UserName"
+            android:inputType="phone"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+    <TableRow>
+    <EditText
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:hint="Password"
+        android:inputType="phone"
+        android:selectAllOnFocus="true" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:padding="2dp">
+        <Button
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Cancel"
+            android:background="@drawable/shape" />
+        <Button
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape"
+            android:text="Sign in"/>
+    </TableRow>
+</TableLayout>
