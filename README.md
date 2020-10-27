@@ -209,7 +209,7 @@ private TextView txt;
 </menu>
 ```
 ## demo
-![](https://github.com/fjnu-zs/test3/blob/master/iamge/%E5%AE%9E%E9%AA%8C1.png)
+![](https://github.com/fjnu-zs/test3/blob/master/iamge/%E5%AE%9E%E9%AA%8C3.png)
 
 
 # ActionMode的上下文菜单
@@ -333,4 +333,4 @@ private ListView listView;
     }
 ```
 ## demo
-![](https://github.com/fjnu-zs/test3/blob/master/iamge/%E5%AE%9E%E9%AA%8C1.png)
+![](https://github.com/fjnu-zs/test3/blob/master/iamge/%E5%AE%9E%E9%AA%8C4.png)
